@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Base and Function Registration">1b59e73f83bf5210794ee470ceaad328</catalog_item>
+        <catalog_variable>IO:96f4b3bb83ff5210794ee470ceaad30f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 20:11:47</sys_created_on>
+        <sys_id>d13773bf83ff5210794ee470ceaad308</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>city</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d13773bf83ff5210794ee470ceaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 20:11:59</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Expend Feature from Base">e106773f83ff5210794ee470ceaad326</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>city</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=d13773bf83ff5210794ee470ceaad308"/>
+</record_update>

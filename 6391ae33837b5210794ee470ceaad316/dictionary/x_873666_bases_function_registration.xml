@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="62da623f837b5210794ee470ceaad3d7" label="Function Registration" max_length="40" name="x_873666_bases_function_registration" type="collection">
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

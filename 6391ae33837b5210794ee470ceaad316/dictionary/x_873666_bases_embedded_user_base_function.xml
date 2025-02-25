@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="552b2a3f837b5210794ee470ceaad3c4" extends="task" label="Embedded_User_Base_Function" max_length="40" name="x_873666_bases_embedded_user_base_function" type="collection">
+        <element label="Function Registration" max_length="32" name="function_registration" reference="x_873666_bases_function_registration" type="reference"/>
+        <element label="Base Registration" max_length="32" name="base_registration" reference="x_873666_bases_base_registration" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4d4a26fb837b5210794ee470ceaad37a" label="Base Registration" max_length="40" name="x_873666_bases_base_registration" type="collection">
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Base Manager" max_length="40" name="base_manager" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Max Capacity" max_length="40" name="max_capacity" type="integer"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+    </element>
+</database>

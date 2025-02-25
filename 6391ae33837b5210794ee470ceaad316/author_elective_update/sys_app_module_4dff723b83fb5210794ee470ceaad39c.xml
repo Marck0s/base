@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Base Management">3a9232b783bb5210794ee470ceaad38d</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create Record</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_873666_bases_embedded_user_base_function</name>
+        <order>650</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_873666_bases.Base Admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 16:10:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4dff723b83fb5210794ee470ceaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_update_name>sys_app_module_4dff723b83fb5210794ee470ceaad39c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 16:10:59</sys_updated_on>
+        <timeline_page/>
+        <title>Create Record</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bases">6391ae33837b5210794ee470ceaad316</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sys_app_module_4dff723b83fb5210794ee470ceaad39c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Base Management">3a9232b783bb5210794ee470ceaad38d</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create Record</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_873666_bases_embedded_user_base_function</name><order>650</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_873666_bases.Base Admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-25 16:10:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4dff723b83fb5210794ee470ceaad39c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create Record</sys_name><sys_overrides/><sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package><sys_policy/><sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope><sys_update_name>sys_app_module_4dff723b83fb5210794ee470ceaad39c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-25 16:10:59</sys_updated_on><timeline_page/><title>Create Record</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1542613531</payload_hash>
+        <record_name>Create Record</record_name>
+        <reverted_from/>
+        <source>73c92a7b837b5210794ee470ceaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 16:10:59</sys_created_on>
+        <sys_id>0120073b83fb5210794ee470ceaad3d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953de039da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 16:10:59</sys_updated_on>
+        <type>Module</type>
+        <update_guid>41208fb731fb5210517e99ba15efdb09</update_guid>
+        <update_guid_history>41208fb731fb5210517e99ba15efdb09:-1542613531</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create Record">a77807b3833f5210794ee470ceaad3d5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 16:47:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>17470d36fa6f4e3c82644951891513e4</sys_id>
+        <sys_metadata>4dff723b83fb5210794ee470ceaad39c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Record</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_scope_delete display_value="">26a3cda3390049f0ae6238d0ff654100</sys_scope_delete>
+        <sys_update_name>sys_app_module_4dff723b83fb5210794ee470ceaad39c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_4dff723b83fb5210794ee470ceaad39c">0120073b83fb5210794ee470ceaad3d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 16:47:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

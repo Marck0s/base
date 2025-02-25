@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Base manager</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_873666_bases.Manager</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Manager</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 14:46:56</sys_created_on>
+        <sys_id>75ecaebf837b5210794ee470ceaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_873666_bases.Manager</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_update_name>sys_user_role_75ecaebf837b5210794ee470ceaad3c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 14:46:56</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bases">6391ae33837b5210794ee470ceaad316</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sys_user_role_75ecaebf837b5210794ee470ceaad3c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Base manager</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_873666_bases.Manager</name><scoped_admin>false</scoped_admin><suffix>Manager</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-25 14:46:56</sys_created_on><sys_id>75ecaebf837b5210794ee470ceaad3c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_873666_bases.Manager</sys_name><sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package><sys_policy/><sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope><sys_update_name>sys_user_role_75ecaebf837b5210794ee470ceaad3c5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-25 14:46:56</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1113242029</payload_hash>
+        <record_name>x_873666_bases.Manager</record_name>
+        <reverted_from/>
+        <source>73c92a7b837b5210794ee470ceaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 14:46:56</sys_created_on>
+        <sys_id>fdecaebf837b5210794ee470ceaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953d9345ab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 14:46:56</sys_updated_on>
+        <type>Role</type>
+        <update_guid>f1ecaebf0b7b521025fc327161d7b2ca</update_guid>
+        <update_guid_history>f1ecaebf0b7b521025fc327161d7b2ca:-1113242029</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_873666_bases.Manager">3d52fe7783bb5210794ee470ceaad316</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 15:10:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>0b952985022a427b8862a9ef58446099</sys_id>
+        <sys_metadata>75ecaebf837b5210794ee470ceaad3c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_873666_bases.Manager</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_scope_delete display_value="">26a3cda3390049f0ae6238d0ff654100</sys_scope_delete>
+        <sys_update_name>sys_user_role_75ecaebf837b5210794ee470ceaad3c5</sys_update_name>
+        <sys_update_version display_value="sys_user_role_75ecaebf837b5210794ee470ceaad3c5">fdecaebf837b5210794ee470ceaad3ca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 15:10:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

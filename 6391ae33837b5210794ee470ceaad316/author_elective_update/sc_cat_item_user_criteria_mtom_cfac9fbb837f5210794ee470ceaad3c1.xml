@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Base and Function">e63c9bbb837f5210794ee470ceaad344</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:18:19</sys_created_on>
+        <sys_id>cfac9fbb837f5210794ee470ceaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Base and Function.Base Users</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_cfac9fbb837f5210794ee470ceaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:18:19</sys_updated_on>
+        <user_criteria display_value="Base Users">283dd7fb837f5210794ee470ceaad365</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bases">6391ae33837b5210794ee470ceaad316</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_cfac9fbb837f5210794ee470ceaad3c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Base and Function">e63c9bbb837f5210794ee470ceaad344</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-25 18:18:19</sys_created_on><sys_id>cfac9fbb837f5210794ee470ceaad3c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Base and Function.Base Users</sys_name><sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package><sys_policy/><sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_cfac9fbb837f5210794ee470ceaad3c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-25 18:18:19</sys_updated_on><user_criteria display_value="Base Users">283dd7fb837f5210794ee470ceaad365</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1641829234</payload_hash>
+        <record_name>Base and Function.Base Users</record_name>
+        <reverted_from/>
+        <source>73c92a7b837b5210794ee470ceaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:18:19</sys_created_on>
+        <sys_id>524d933f837f5210794ee470ceaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953e54cd460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:18:19</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>564d933f717f5210ece5ec062c9b2378</update_guid>
+        <update_guid_history>564d933f717f5210ece5ec062c9b2378:1641829234</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Base and Function.Base Users">0b006b3383bf5210794ee470ceaad377</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:30:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>0080f7671562410284b6b5caeb6cb2a4</sys_id>
+        <sys_metadata>cfac9fbb837f5210794ee470ceaad3c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Base and Function.Base Users</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_scope_delete display_value="">26a3cda3390049f0ae6238d0ff654100</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_cfac9fbb837f5210794ee470ceaad3c1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_cfac9fbb837f5210794ee470ceaad3c1">524d933f837f5210794ee470ceaad379</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:30:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

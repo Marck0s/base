@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="DELETE">
+        <active>true</active>
+        <description/>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:14:28</sys_created_on>
+        <sys_id>c25c5fbb837f5210794ee470ceaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Base Catalog</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_update_name>sc_catalog_c25c5fbb837f5210794ee470ceaad395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:14:28</sys_updated_on>
+        <title>Base Catalog</title>
+    </sc_catalog>
+    <sys_translated_text action="DELETE" query="documentkey=c25c5fbb837f5210794ee470ceaad395"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bases">6391ae33837b5210794ee470ceaad316</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sc_catalog_c25c5fbb837f5210794ee470ceaad395</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog"><sc_catalog action="INSERT_OR_UPDATE"><active>true</active><description/><desktop_continue_shopping/><desktop_home_page/><desktop_image/><editors/><enable_wish_list>false</enable_wish_list><manager/><sys_class_name>sc_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-25 18:14:28</sys_created_on><sys_id>c25c5fbb837f5210794ee470ceaad395</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Base Catalog</sys_name><sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package><sys_policy/><sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope><sys_update_name>sc_catalog_c25c5fbb837f5210794ee470ceaad395</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-25 18:14:28</sys_updated_on><title>Base Catalog</title></sc_catalog><sys_translated_text action="delete_multiple" query="documentkey=c25c5fbb837f5210794ee470ceaad395"/></record_update>]]></payload>
+        <payload_hash>-1519319703</payload_hash>
+        <record_name>Base Catalog</record_name>
+        <reverted_from/>
+        <source>73c92a7b837b5210794ee470ceaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:14:29</sys_created_on>
+        <sys_id>4e6c9fbb837f5210794ee470ceaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953e5149480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:14:29</sys_updated_on>
+        <type>Catalog</type>
+        <update_guid>426c9fbbed7f5210492fb5e1cb1570be</update_guid>
+        <update_guid_history>426c9fbbed7f5210492fb5e1cb1570be:-1519319703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Base Catalog">b480a37383bf5210794ee470ceaad378</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 18:32:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog">sc_catalog</sys_db_object>
+        <sys_id>08ef7fea16504a3a80363b1e6f92e004</sys_id>
+        <sys_metadata>c25c5fbb837f5210794ee470ceaad395</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Base Catalog</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_scope_delete display_value="">26a3cda3390049f0ae6238d0ff654100</sys_scope_delete>
+        <sys_update_name>sc_catalog_c25c5fbb837f5210794ee470ceaad395</sys_update_name>
+        <sys_update_version display_value="sc_catalog_c25c5fbb837f5210794ee470ceaad395">4e6c9fbb837f5210794ee470ceaad3be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 18:32:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
