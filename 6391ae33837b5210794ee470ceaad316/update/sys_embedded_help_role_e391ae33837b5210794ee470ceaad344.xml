@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_873666_bases.user" name="x_873666_bases.user">ef91ae33837b5210794ee470ceaad342</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 13:57:37</sys_created_on>
+        <sys_id>e391ae33837b5210794ee470ceaad344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ef91ae33837b5210794ee470ceaad342</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e391ae33837b5210794ee470ceaad344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 13:57:37</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
