@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="552b2a3f837b5210794ee470ceaad3c4" extends="task" label="Embedded_User_Base_Function" max_length="40" name="x_873666_bases_embedded_user_base_function" type="collection">
-        <element label="Function Registration" max_length="32" name="function_registration" reference="x_873666_bases_function_registration" type="reference"/>
-        <element label="Base Registration" max_length="32" name="base_registration" reference="x_873666_bases_base_registration" type="reference"/>
+        <element label="Function Registration" max_length="32" name="function_registration" reference="x_873666_bases_function_registration" reference_qual="sys_id=current.user^EQ" reference_qual_condition="sys_id=current.user^EQ" type="reference"/>
+        <element label="Base Registration" max_length="32" name="base_registration" reference="x_873666_bases_base_registration" reference_qual="base_manager = current.user" reference_qual_condition="base_manager = current.user" type="reference"/>
+        <element choice="1" label="Status - Active/Remove" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Remove this User" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="1"/>
+            </choice>
+        </element>
     </element>
 </database>

@@ -58,8 +58,10 @@
         <record/>
         <record_producer_table>x_873666_bases_embedded_user_base_function</record_producer_table>
         <reference>x_873666_bases_function_registration</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>name!=Base Manager^EQ</reference_qual>
+        <reference_qual_condition table="x_873666_bases_function_registration">name!=Base Manager^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="!=" or="false" value="Base Manager"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -79,14 +81,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-25 19:40:29</sys_created_on>
         <sys_id>e4bf273783ff5210794ee470ceaad378</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Please, choose a Function</sys_name>
         <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
         <sys_update_name>item_option_new_e4bf273783ff5210794ee470ceaad378</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-25 20:13:38</sys_updated_on>
+        <sys_updated_on>2025-02-27 19:39:17</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

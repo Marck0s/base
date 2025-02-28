@@ -30,18 +30,6 @@
         <script><![CDATA[var baseName = current.name;
 var baseCity = current.city;
 var baseState = current.state;
-var baseManager = current.base_manager;
-
-// Checking Manager association
-var grManager = new GlideRecord('x_873666_bases_base_registration');
-grManager.addQuery('base_manager', baseManager);
-grManager.addQuery('sys_id', "!=", current.sys_id);
-grManager.query();
-
-if (grManager.next()) {
-	gs.addErrorMessage("The chosen manager is already assigned to another base. Please choose another one!");
-	current.setAbortAction(true);
-}
 
 // Cheking dub name bases
 var grName = new GlideRecord('x_873666_bases_base_registration');
@@ -69,7 +57,7 @@ if (grCityAndState.next()) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0dfe8f3b833f5210794ee470ceaad338</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Prevent Dup Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
@@ -77,7 +65,7 @@ if (grCityAndState.next()) {
         <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
         <sys_update_name>sys_script_0dfe8f3b833f5210794ee470ceaad338</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-25 18:01:34</sys_updated_on>
+        <sys_updated_on>2025-02-27 16:52:51</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

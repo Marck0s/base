@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow read for records in x_873666_bases_embedded_user_base_function, for users with role x_873666_bases.Base Manager, and if the ACL script returns true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_873666_bases_embedded_user_base_function</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[var userID = gs.getUserID(); // Obtém o sys_id do usuário logado
+var baseID = current.base_registration.base_manager.sys_id.toString();
+
+if (userID == baseID){
+	answer = true;
+} else {
+	answer = false;
+}]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 18:44:11</sys_created_on>
+        <sys_id>266fbe708308e210794ee470ceaad359</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_873666_bases_embedded_user_base_function</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_update_name>sys_security_acl_266fbe708308e210794ee470ceaad359</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 19:08:56</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>266fbe708308e210794ee470ceaad359</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-28 18:44:09</sys_created_on>
+        <sys_id>ceffba708308e210794ee470ceaad34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-28 18:44:09</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -18,7 +18,7 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path>base_manager</dynamic_value_dot_walk_path>
+        <dynamic_value_dot_walk_path>base_manager.name</dynamic_value_dot_walk_path>
         <dynamic_value_field display_value="Please, choose a Base">37ce67f383ff5210794ee470ceaad378</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
@@ -57,7 +57,7 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_873666_bases_embedded_user_base_function</record_producer_table>
-        <reference/>
+        <reference>x_873666_bases_base_registration</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-25 20:04:51</sys_created_on>
         <sys_id>72a5b7bb83ff5210794ee470ceaad32e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Base Manager</sys_name>
         <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
         <sys_update_name>item_option_new_72a5b7bb83ff5210794ee470ceaad32e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-25 20:33:05</sys_updated_on>
+        <sys_updated_on>2025-02-27 14:31:19</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

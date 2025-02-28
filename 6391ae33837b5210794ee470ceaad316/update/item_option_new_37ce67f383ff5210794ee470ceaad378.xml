@@ -58,7 +58,7 @@
         <record/>
         <record_producer_table>x_873666_bases_embedded_user_base_function</record_producer_table>
         <reference>x_873666_bases_base_registration</reference>
-        <reference_qual/>
+        <reference_qual>javascript:new x_873666_bases.BaseUtils().refQualBase();</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-25 19:37:58</sys_created_on>
         <sys_id>37ce67f383ff5210794ee470ceaad378</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Please, choose a Base</sys_name>
         <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
         <sys_update_name>item_option_new_37ce67f383ff5210794ee470ceaad378</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-25 19:58:25</sys_updated_on>
+        <sys_updated_on>2025-02-27 15:09:25</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -94,7 +94,7 @@
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>
