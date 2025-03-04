@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>base_registration.max_capacity</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 13:57:15</sys_created_on>
+        <sys_id>e4fa6f4083802210794ee470ceaad3e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>base_registration.max_capacity</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e4fa6f4083802210794ee470ceaad3e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 00:09:01</sys_updated_on>
+        <table>x_873666_bases_embedded_user_base_function</table>
+        <ui_policy display_value="ReadOnly Fields">02aedf0083402210794ee470ceaad3da</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e4fa6f4083802210794ee470ceaad3e9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bases">6391ae33837b5210794ee470ceaad316</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sys_ui_policy_action_e4fa6f4083802210794ee470ceaad3e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>base_registration.max_capacity</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-26 13:57:15</sys_created_on><sys_id>e4fa6f4083802210794ee470ceaad3e9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>base_registration.max_capacity</sys_name><sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package><sys_policy/><sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope><sys_update_name>sys_ui_policy_action_e4fa6f4083802210794ee470ceaad3e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 00:09:01</sys_updated_on><table>x_873666_bases_embedded_user_base_function</table><ui_policy display_value="ReadOnly Fields">02aedf0083402210794ee470ceaad3da</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e4fa6f4083802210794ee470ceaad3e9"/></record_update>]]></payload>
+        <payload_hash>1419521632</payload_hash>
+        <record_name>base_registration.max_capacity</record_name>
+        <reverted_from/>
+        <source>73c92a7b837b5210794ee470ceaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 00:09:01</sys_created_on>
+        <sys_id>148d522d83c86210794ee470ceaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955955a9a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 00:09:01</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>988d522dc0c8621022c37d7a9e4cdb31</update_guid>
+        <update_guid_history>988d522dc0c8621022c37d7a9e4cdb31:1419521632,3b1bab4098802210599136049e6957a2:-1296084449</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 13:41:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1d039426a42a4f3385af21c616154f61</sys_id>
+        <sys_metadata>e4fa6f4083802210794ee470ceaad3e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>base_registration.max_capacity</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_parent display_value="ReadOnly Fields - Embedded Tables">02aedf0083402210794ee470ceaad3da</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_scope_delete display_value="">26a3cda3390049f0ae6238d0ff654100</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e4fa6f4083802210794ee470ceaad3e9</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e4fa6f4083802210794ee470ceaad3e9">148d522d83c86210794ee470ceaad332</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 13:41:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

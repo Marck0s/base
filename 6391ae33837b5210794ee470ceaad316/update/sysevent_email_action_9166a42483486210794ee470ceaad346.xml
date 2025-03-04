@@ -36,7 +36,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p data-end="248" data-start="215">Dear ${opened_by.name},</p>
+        <message_html><![CDATA[<p data-end="248" data-start="215">Dear ${requested.name},</p>
 <p data-end="421" data-start="250">Thank you for your interest in joining the Base "${base_registration.name}" as "${function_registration.name}". After careful review, we regret to inform you that your registration has not been approved at this time.&nbsp;</p>
 <p data-end="1390" data-start="1295">If you have any questions or would like to know more details, please feel free to contact us.</p>
 <p data-end="1464" data-start="1392">We appreciate your understanding and hope to assist you in the future.</p>
@@ -47,7 +47,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>opened_by</recipient_fields>
+        <recipient_fields>requested</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -62,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9166a42483486210794ee470ceaad346</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Registration Rejection Email</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
@@ -70,7 +70,7 @@
         <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
         <sys_update_name>sysevent_email_action_9166a42483486210794ee470ceaad346</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-27 13:50:00</sys_updated_on>
+        <sys_updated_on>2025-03-04 00:50:45</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

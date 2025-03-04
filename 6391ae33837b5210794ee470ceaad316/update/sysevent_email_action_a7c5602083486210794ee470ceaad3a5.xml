@@ -36,7 +36,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p data-end="248" data-start="215">Dear ${opened_by.name},</p>
+        <message_html><![CDATA[<p data-end="248" data-start="215">Dear ${requested.name},</p>
 <p data-end="421" data-start="250">Congratulations! Your registration has been reviewed and approved. You are now officially registered for the Base "${base_registration.name}" as "${function_registration.name}"! yay</p>
 <p data-end="492" data-start="423">If you have any questions, please do not hesitate to reach out.</p>
 <p data-end="544" data-start="494">Best regards,<br data-end="510" data-start="507">Support Team</p>]]></message_html>
@@ -46,7 +46,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>opened_by</recipient_fields>
+        <recipient_fields>requested</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a7c5602083486210794ee470ceaad3a5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Registration Approved Email</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
         <sys_update_name>sysevent_email_action_a7c5602083486210794ee470ceaad3a5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-27 13:49:22</sys_updated_on>
+        <sys_updated_on>2025-03-04 00:50:37</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

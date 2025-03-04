@@ -19,23 +19,23 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>ReadOnly Fields - Embedded Tables</short_description>
+        <short_description>RedOnly Fields - Base Registration</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-26 13:03:10</sys_created_on>
+        <sys_created_on>2025-03-03 13:26:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>02aedf0083402210794ee470ceaad3da</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>ReadOnly Fields - Embedded Tables</sys_name>
+        <sys_id>43e359798348a210794ee470ceaad341</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>RedOnly Fields - Base Registration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
-        <sys_update_name>sys_ui_policy_02aedf0083402210794ee470ceaad3da</sys_update_name>
+        <sys_update_name>sys_ui_policy_43e359798348a210794ee470ceaad341</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-03 13:27:11</sys_updated_on>
-        <table>x_873666_bases_embedded_user_base_function</table>
+        <sys_updated_on>2025-03-03 18:22:46</sys_updated_on>
+        <table>x_873666_bases_base_registration</table>
         <ui_type>0</ui_type>
         <view/>
     </sys_ui_policy>
