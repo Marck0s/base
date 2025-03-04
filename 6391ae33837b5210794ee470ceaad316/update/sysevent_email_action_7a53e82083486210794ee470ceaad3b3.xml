@@ -50,7 +50,7 @@
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
         <subject>Registration Received for the base "${base_registration.name}"</subject>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7a53e82083486210794ee470ceaad3b3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Registration Confirmation Email</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
         <sys_update_name>sysevent_email_action_7a53e82083486210794ee470ceaad3b3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-04 00:50:48</sys_updated_on>
+        <sys_updated_on>2025-03-04 02:02:50</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

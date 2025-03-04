@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_873666_bases_embedded_user_base_function</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p data-end="248" data-start="215">Dear ${requested.name},</p>
+<p data-end="421" data-start="250">Thank you for your interest in joining the Base "${base_registration.name}" as "${function_registration.name}". After careful review, we regret to inform you that your registration has not been approved at this time.&nbsp;</p>
+<p data-end="1390" data-start="1295">If you have any questions or would like to know more details, please feel free to contact us.</p>
+<p data-end="1464" data-start="1392">We appreciate your understanding and hope to assist you in the future.</p>
+<p data-end="544" data-start="494">Best regards,<br data-end="510" data-start="507">Support Team</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Registration Rejection Email</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>requested</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Registration Status Update for the Base "${base_registration.name}"</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-27 12:54:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9166a42483486210794ee470ceaad346</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Registration Rejection Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_update_name>sysevent_email_action_9166a42483486210794ee470ceaad346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 02:02:35</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bases">6391ae33837b5210794ee470ceaad316</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sysevent_email_action_9166a42483486210794ee470ceaad346</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_873666_bases_embedded_user_base_function&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;triggered&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p data-end="248" data-start="215"&gt;Dear ${requested.name},&lt;/p&gt;
+&lt;p data-end="421" data-start="250"&gt;Thank you for your interest in joining the Base "${base_registration.name}" as "${function_registration.name}". After careful review, we regret to inform you that your registration has not been approved at this time.&amp;nbsp;&lt;/p&gt;
+&lt;p data-end="1390" data-start="1295"&gt;If you have any questions or would like to know more details, please feel free to contact us.&lt;/p&gt;
+&lt;p data-end="1464" data-start="1392"&gt;We appreciate your understanding and hope to assist you in the future.&lt;/p&gt;
+&lt;p data-end="544" data-start="494"&gt;Best regards,&lt;br data-end="510" data-start="507"&gt;Support Team&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Registration Rejection Email&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;requested&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;false&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Registration Status Update for the Base "${base_registration.name}"&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-27 12:54:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9166a42483486210794ee470ceaad346&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Registration Rejection Email&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Bases" source="x_873666_bases"&gt;6391ae33837b5210794ee470ceaad316&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bases"&gt;6391ae33837b5210794ee470ceaad316&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_9166a42483486210794ee470ceaad346&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-04 02:02:35&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1368709707</payload_hash>
+        <record_name>Registration Rejection Email</record_name>
+        <reverted_from/>
+        <source>73c92a7b837b5210794ee470ceaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 02:02:35</sys_created_on>
+        <sys_id>7511888a83c4e210794ee470ceaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955ee4025a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 02:02:35</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>f911888a9cc4e2102704fd3507f230f4</update_guid>
+        <update_guid_history>f911888a9cc4e2102704fd3507f230f4:1368709707,d601488a92c4e2106ced744d10ed5fbd:1703104462,e3f0444a94c4e2102e049d7fd40afce6:1368709707,d9a033759e84e2107fa8c92565c1add7:1417836002,2b303b352284e210325a9f0376067941:-1023925151,5f03f024458862106c790d23d9e0de36:-1344992638,5b96a4246a48621028453846a50fdf4d:1747980512,1966a424f4486210ff8ec94a20463c47:-619593183</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 02:15:40</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>1542e03d22d94ecb936790f8308b7579</sys_id>
+        <sys_metadata>9166a42483486210794ee470ceaad346</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Registration Rejection Email</sys_name>
+        <sys_package display_value="Bases" source="x_873666_bases">6391ae33837b5210794ee470ceaad316</sys_package>
+        <sys_parent display_value="Embedded_User_Base_Function">552b2a3f837b5210794ee470ceaad3c4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bases">6391ae33837b5210794ee470ceaad316</sys_scope>
+        <sys_scope_delete display_value="">26a3cda3390049f0ae6238d0ff654100</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_9166a42483486210794ee470ceaad346</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_9166a42483486210794ee470ceaad346">7511888a83c4e210794ee470ceaad3f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 02:15:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
